@@ -5,7 +5,7 @@ import Tags from './collections/Tags';
 import Users from './collections/Users';
 
 export default buildConfig({
-  serverURL: 'http://localhost:3000',
+  serverURL: 'https://my-blog-u6d9.onrender.com',
   admin: {
     user: Users.slug,
   },
