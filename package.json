@@ -1,0 +1,11 @@
+{
+  "name": "rv",
+  "version": "1.0.0",
+  "description": "My website admin and associated services.",
+  "main": "index.js",
+  "repository": "git@github.com:richardvanbergen/solid-journey.git",
+  "author": "Richard Vanbergen <rich.vanbergen@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.0.2"
+}
