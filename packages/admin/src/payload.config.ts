@@ -5,7 +5,7 @@ import Tags from './collections/Tags';
 import Users from './collections/Users';
 
 export default buildConfig({
-  serverURL: 'https://my-blog-u6d9.onrender.com',
+  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL,
   admin: {
     user: Users.slug,
   },
@@ -15,4 +15,7 @@ export default buildConfig({
     Tags,
     Users,
   ],
+  upload: {
+    staticDir: '/var/data',
+  },
 });
