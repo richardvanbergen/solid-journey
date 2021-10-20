@@ -1,5 +1,6 @@
 import { buildConfig } from 'payload/config';
 import Categories from './collections/Categories';
+import Image from './collections/Images';
 import Posts from './collections/Posts';
 import Tags from './collections/Tags';
 import Users from './collections/Users';
@@ -10,6 +11,7 @@ export default buildConfig({
     user: Users.slug,
   },
   collections: [
+    Image,
     Categories,
     Posts,
     Tags,
