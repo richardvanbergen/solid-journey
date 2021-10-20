@@ -15,7 +15,7 @@ export default buildConfig({
     Tags,
     Users,
   ],
-  upload: {
-    staticDir: '/var/data',
-  },
+  // upload: {
+  //   staticDir: '/var/data',
+  // },
 });
