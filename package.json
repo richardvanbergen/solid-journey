@@ -9,7 +9,9 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "dev": "yarn workspaces foreach -pi run dev"
+    "dev": "yarn workspaces foreach -pi run dev",
+    "admin:build": "yarn workspace @rv/admin run build",
+    "admin:serve": "yarn workspace @rv/admin run serve"
   },
   "workspaces": {
     "packages": [
